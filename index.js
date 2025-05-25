@@ -1,6 +1,6 @@
 import fs from 'fs'
 import fetch from 'node-fetch';
-import { json } from 'stream/consumers';
+
 
  
 const ingestadatos= ('https://fakestoreapi.com/products')
