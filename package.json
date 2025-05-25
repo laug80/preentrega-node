@@ -1,0 +1,22 @@
+{
+  "name": "preentrega",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "get":"node index.js get products",
+    "getbyid": "node index.js getbyid",
+    "post":"node index.js post",
+    "delete": "node index.js delete",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Laura Gonzalez",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "git": "^0.1.5",
+    "node-fetch": "^3.3.2"
+  }
+}
